@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Sidenav from './components/Sidenav'
+import Home from './components/Home'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
         <Sidenav />
+        <Home />
       </div>
     </>
   )
