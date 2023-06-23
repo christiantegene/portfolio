@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import {AiOutlineHome, AiOutlineMenu, AiOutlineProject, AiOutlineMail} from 'react-icons/ai'
 import {BsPerson} from 'react-icons/bs'
 import {GrProjects} from 'react-icons/gr'
+import MyLinks from './MyLinks'
+
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false)
@@ -35,6 +37,7 @@ const Sidenav = () => {
                             <AiOutlineMail size={20} />
                             <span className='pl-4'>Contact Me</span>
                         </a>
+                        <MyLinks />
                     </div>
                 ): (
                     ''
