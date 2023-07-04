@@ -5,6 +5,8 @@ import jsImg from '../assets/skills/javascript.png'
 import reactImg from '../assets/skills/react.png'
 import pythonImg from '../assets/skills/python.png'
 import postgresImg from '../assets/skills/postgres.png'
+import viteImg from '../assets/skills/vite.png'
+
 import { FaDocker, FaGitAlt } from 'react-icons/fa'
 import {SiDjango, SiFastapi} from 'react-icons/si'
 
@@ -53,6 +55,10 @@ const Skills = () => {
                 <div className='p-4 m-auto'>
                     <SiDjango size='lg' style={{color: "#43a67b"}}/>
                     <p className='text-center font-bold text-white '>Django</p>
+                </div>
+                <div className='p-4'>
+                    <img src={viteImg} alt="postgres" />
+                    <p className='text-center font-bold text-white'>Vite</p>
                 </div>
             </div>
         </div>
