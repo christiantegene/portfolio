@@ -1,10 +1,11 @@
-import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import Home from './components/Home'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
+
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Skills />
         <Portfolio />
         <ContactMe />
+        <Footer />
       </div>
     </>
   )
