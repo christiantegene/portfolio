@@ -14,7 +14,7 @@ const MyLinks = () => {
             <a className='hover:scale-110 ease-in duration-300' href="https://github.com/christiantegene" target="_blank" rel="noopener noreferrer">
                 <FaGithub className='cursor-pointer' style={{color: "#333"}} size={25}/>
             </a>
-            <a className='hover:scale-110 ease-in duration-300' href="" target="_blank" rel="noopener noreferrer">
+            <a className='hover:scale-110 ease-in duration-300' href="https://docs.google.com/document/d/1zInkGiPnyg6GfB5pdMf-PqB7jT6-2r76DqA_Lsg12rU/edit" target="_blank" rel="noopener noreferrer">
                 <FaFile className='cursor-pointer' style={{color: "#92B558"}} size={22}/>
             </a>
         </div>
