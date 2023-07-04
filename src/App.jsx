@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import ContactMe from './components/ContactMe'
 import Footer from './components/Footer'
-
+import Wave from './components/Wave'
 
 function App() {
 
@@ -18,6 +18,7 @@ function App() {
         <Skills />
         <Portfolio />
         <ContactMe />
+        <Wave />
         <Footer />
       </div>
     </>
