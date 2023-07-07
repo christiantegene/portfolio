@@ -33,11 +33,11 @@ const Skills = () => {
                     <p className='text-center font-bold text-white'>React</p>
                 </div>
                 <div className='p-4 m-auto'>
-                    <FaGitAlt size='lg' style={{color: "#dd5636"}}/>
+                    <FaGitAlt size='200' style={{color: "#dd5636"}}/>
                     <p className='text-center font-bold text-white'>Git/Version control</p>
                 </div>
                 <div className='p-4 m-auto'>
-                    <FaDocker size='lg' style={{color: "#2692e8"}}/>
+                    <FaDocker size='200' style={{color: "#2692e8"}}/>
                     <p className='text-center font-bold text-white'>Docker</p>
                 </div>
                 <div className='p-4'>
@@ -45,7 +45,7 @@ const Skills = () => {
                     <p className='text-center font-bold text-white'>Python</p>
                 </div>
                 <div className='p-4 m-auto'>
-                    <SiFastapi size='lg' style={{color: "#2d978c"}}/>
+                    <SiFastapi size='200' style={{color: "#2d978c"}}/>
                     <p className='text-center font-bold text-white'>FastAPI</p>
                 </div>
                 <div className='p-4'>
@@ -53,7 +53,7 @@ const Skills = () => {
                     <p className='text-center font-bold text-white'>PostgreSQL</p>
                 </div>
                 <div className='p-4 m-auto'>
-                    <SiDjango size='lg' style={{color: "#43a67b"}}/>
+                    <SiDjango size='200' style={{color: "#43a67b"}}/>
                     <p className='text-center font-bold text-white '>Django</p>
                 </div>
                 <div className='p-4'>
