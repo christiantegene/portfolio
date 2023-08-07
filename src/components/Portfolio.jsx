@@ -11,7 +11,7 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-1 gap-12'>
                 < Project img={autonexusImg} title='AutoNexus' tagline='A dealership management platform built to help car dealerships manage their inventory, sales, and services' repo='https://gitlab.com/christiantegene/autonexus' link={null}/>
                 < Project img={conferencehqImg} title='ConferenceHQ' tagline='An application for event planners to organize an in-person or virtual conference from anywhere' repo='https://gitlab.com/christiantegene/conferencehq' link={null}/>
-                < Project img={healthgptImg} title='HealthGPT' tagline='An application designed to help users track their caloric intake and expenditure to promote a healthy lifestyle' repo='https://gitlab.com/caloriecounters/healthgpt' link='https://healthgpt-frontend-production.up.railway.app/' />
+                < Project img={healthgptImg} title='HealthGPT' tagline='An application designed to help users track their caloric intake and expenditure to promote a healthy lifestyle' repo='https://gitlab.com/caloriecounters/healthgpt' link='https://caloriecounters.gitlab.io/healthgpt/' />
             </div>
         </div>
     )
