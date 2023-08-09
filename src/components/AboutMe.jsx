@@ -18,8 +18,8 @@ const AboutMe = () => {
                 <h1 className='text-center pt-10 pb-5 sm:text-5xl text-4xl font-bold text-gray-800'>About Me</h1>
                 <div className='flex flex-col items-center md:flex-row'>
                     <img className='rounded-full w-57 h-48' src={headshotImg} alt="me" />
-                    <div className='pt-5'>
-                        <p className='h-full w-full flex flex-col justify-center pl-10 pb-5'>
+                    <div className="pt-3 pb-2 border border-black rounded-md">
+                        <p className='h-full w-full flex flex-col justify-center pl-10 pb-5 border'>
                         Welcome! I'm Christian Tegene, a 25 year old Full-Stack developer, former medical student, and passionate problem solver embarking on an exciting career transition into the world of tech. I graduated from the University of Pittsburgh where I studied Biology and Chemistry with the goal of pursuing medicine. However, as I progressed through medical school, I realized that my true calling lies in the realm of technology. Through a combination of self-guided and structured learning and a deep exploration of computer science and programming, I have found immense joy and fulfillment in building software and solving complex technical problems. With a strong foundation in critical thinking, decision-making, and attention to detail, coupled with my background in the natural sciences, I bring a unique perspective to the field of software engineering.
                         </p>
                         <p className='h-full w-full flex flex-col justify-center pl-10'>
