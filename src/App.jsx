@@ -18,7 +18,7 @@ function App() {
         <Skills />
         <Portfolio />
         <ContactMe />
-        <Wave />
+        {/* <Wave /> */}
         <Footer />
       </div>
     </>
