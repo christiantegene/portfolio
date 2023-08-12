@@ -6,7 +6,7 @@ import healthgptImg from '../assets/healthgpt.jpg'
 
 const Portfolio = () => {
     return (
-        <div id='portfolio' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div id='portfolio' className='max-w-[1040px] m-auto md:pl-20 p-4 py-4'>
             <h1 className='text-center pt-10 pb-5 sm:text-5xl text-4xl font-bold text-gray-800'>Portfolio</h1>
             <div className='grid sm:grid-cols-1 gap-12'>
                 < Project img={autonexusImg} title='AutoNexus' tagline='A dealership management platform built to help car dealerships manage their inventory, sales, and services' repo='https://gitlab.com/christiantegene/autonexus' link={null}/>
