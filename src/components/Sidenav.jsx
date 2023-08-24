@@ -3,7 +3,7 @@ import {AiOutlineHome, AiOutlineMenu, AiOutlineProject, AiOutlineMail} from 'rea
 import {BsPerson} from 'react-icons/bs'
 import {GrProjects} from 'react-icons/gr'
 import MyLinks from './MyLinks'
-
+import { Tooltip, Button } from "@material-tailwind/react";
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false)
@@ -46,7 +46,32 @@ const Sidenav = () => {
 
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
-                    <a href="#home" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                    <Tooltip content="Home" placement="right">
+                        <a href="#home" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                                    <AiOutlineHome size={20} />
+                        </a>
+                    </Tooltip>
+                    <Tooltip content="About Me" placement="right">
+                        <a href="#about" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                                    <BsPerson size={20} />
+                        </a>
+                    </Tooltip>
+                    <Tooltip content="Skills" placement="right">
+                        <a href="#skills" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                                    <AiOutlineProject size={20} />
+                        </a>
+                    </Tooltip>
+                    <Tooltip content="Portfolio" placement="right">
+                        <a href="#portfolio" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                                    <GrProjects size={20} />
+                        </a>
+                    </Tooltip>
+                    <Tooltip content="Contact Me" placement="right">
+                        <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                                    <AiOutlineMail size={20} />
+                        </a>
+                    </Tooltip>
+                    {/* <a href="#home" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
                                 <AiOutlineHome size={20} />
                     </a>
                     <a href="#about" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
@@ -60,7 +85,7 @@ const Sidenav = () => {
                     </a>
                     <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
                                 <AiOutlineMail size={20} />
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>
