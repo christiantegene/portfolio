@@ -31,7 +31,7 @@ const AboutMe = () => {
                         </div>
 
                     </div>
-                    <Carousel loop={true} autoplay={true} className="rounded-xl max-w-[500px] m-auto pt-20">
+                    <Carousel loop={true} autoplay={true} transition={{ duration: 1.5 }} className="rounded-xl max-w-[500px] m-auto pt-20">
                     <img
                         src={pinchotlakeImg}
                         alt="pinchot lake"
