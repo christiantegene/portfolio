@@ -11,7 +11,7 @@ import scubadivingImg from '../assets/scubadiving.jpg'
 
 const AboutMe = () => {
     return (
-        <div id='about' className='md:pl-20'>
+        <div id='about' className='md:pl-20 bg-[#f5f5f5]'>
             {/* <img className='w-full h-screen object-cover' src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="light-bg" /> */}
             <div className='max-w-[1096px] m-auto'>
                 <h1 className='text-center pt-10 pb-5 sm:text-5xl text-4xl font-bold text-gray-800'>About Me</h1>
