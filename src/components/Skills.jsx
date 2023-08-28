@@ -13,10 +13,6 @@ import djangoImg from '../assets/skills/django.png'
 import firebaseImg from '../assets/skills/firebase.png'
 
 
-import { FaDocker, FaGitAlt } from 'react-icons/fa'
-import {SiDjango, SiFastapi} from 'react-icons/si'
-
-
 const Skills = () => {
     return (
         <div id='skills' className='max-w-[1096px] m-auto md:pl-20 p-4 py-4'>
@@ -58,13 +54,16 @@ const Skills = () => {
                     <img src={postgresImg} alt="postgres" />
                     <p className='text-center font-bold text-white'>PostgreSQL</p>
                 </div>
-
                 <div className='p-4'>
                     <img src={djangoImg} alt="django" />
                     <p className='text-center font-bold text-white'>Django</p>
                 </div>
                 <div className='p-4'>
-                    <img src={viteImg} alt="postgres" />
+                    <img src={firebaseImg} alt="firebase" />
+                    <p className='text-center font-bold text-white'>Firebase</p>
+                </div>
+                <div className='p-4'>
+                    <img src={viteImg} alt="vite" />
                     <p className='text-center font-bold text-white'>Vite</p>
                 </div>
             </div>
