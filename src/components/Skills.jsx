@@ -6,9 +6,11 @@ import reactImg from '../assets/skills/react.png'
 import pythonImg from '../assets/skills/python.png'
 import postgresImg from '../assets/skills/postgres.png'
 import viteImg from '../assets/skills/vite.png'
-
-import { FaDocker, FaGitAlt } from 'react-icons/fa'
-import {SiDjango, SiFastapi} from 'react-icons/si'
+import dockerImg from '../assets/skills/docker.png'
+import gitImg from '../assets/skills/git.png'
+import fastapiImg from '../assets/skills/fastapi.png'
+import djangoImg from '../assets/skills/django.png'
+import firebaseImg from '../assets/skills/firebase.png'
 
 
 const Skills = () => {
@@ -32,32 +34,36 @@ const Skills = () => {
                     <img src={reactImg} alt="react" />
                     <p className='text-center font-bold text-white'>React</p>
                 </div>
-                <div className='p-4 m-auto'>
-                    <FaGitAlt size='200' style={{color: "#dd5636"}}/>
-                    <p className='text-center font-bold text-white'>Git/Version control</p>
+                <div className='p-4'>
+                    <img src={gitImg} alt="git" />
+                    <p className='text-center font-bold text-white'>Git/Version Control</p>
                 </div>
-                <div className='p-4 m-auto'>
-                    <FaDocker size='200' style={{color: "#2692e8"}}/>
+                <div className='p-4'>
+                    <img src={dockerImg} alt="docker" />
                     <p className='text-center font-bold text-white'>Docker</p>
                 </div>
                 <div className='p-4'>
                     <img src={pythonImg} alt="python"/>
                     <p className='text-center font-bold text-white'>Python</p>
                 </div>
-                <div className='p-4 m-auto'>
-                    <SiFastapi size='200' style={{color: "#2d978c"}}/>
+                <div className='p-4'>
+                    <img src={fastapiImg} alt="fastapi"/>
                     <p className='text-center font-bold text-white'>FastAPI</p>
                 </div>
                 <div className='p-4'>
                     <img src={postgresImg} alt="postgres" />
                     <p className='text-center font-bold text-white'>PostgreSQL</p>
                 </div>
-                <div className='p-4 m-auto'>
-                    <SiDjango size='200' style={{color: "#43a67b"}}/>
-                    <p className='text-center font-bold text-white '>Django</p>
+                <div className='p-4'>
+                    <img src={djangoImg} alt="django" />
+                    <p className='text-center font-bold text-white'>Django</p>
                 </div>
                 <div className='p-4'>
-                    <img src={viteImg} alt="postgres" />
+                    <img src={firebaseImg} alt="firebase" />
+                    <p className='text-center font-bold text-white'>Firebase</p>
+                </div>
+                <div className='p-4'>
+                    <img src={viteImg} alt="vite" />
                     <p className='text-center font-bold text-white'>Vite</p>
                 </div>
             </div>
