@@ -7,6 +7,8 @@ import eiffeltowerImg from '../assets/eiffeltower.jpg'
 import pinchotlakeImg from '../assets/pinchotlake.jpg'
 import skydivingImg from '../assets/skydiving.jpg'
 import scubadivingImg from '../assets/scubadiving.jpg'
+import colosseumImg from '../assets/colosseum.png'
+
 
 
 const AboutMe = () => {
@@ -49,6 +51,16 @@ const AboutMe = () => {
                             className="h-full w-full object-cover"
                         />
                     </div>
+                    <img
+                        src={colosseumImg}
+                        alt="colosseum"
+                        className="h-full w-full object-cover"
+                    />
+                    <img
+                        src={eiffeltowerImg}
+                        alt="eiffel tower"
+                        className="h-full w-full object-cover"
+                    />
                     <div>
                         <img
                             src={skydivingImg}
@@ -61,11 +73,6 @@ const AboutMe = () => {
                             className="h-full w-full object-cover"
                         />
                     </div>
-                    <img
-                        src={eiffeltowerImg}
-                        alt="eiffel tower"
-                        className="h-full w-full object-cover"
-                    />
                 </Carousel>
 
                 </div>
