@@ -4,7 +4,7 @@ import {FaLinkedinIn, FaFile, FaGithub, FaGitlab} from 'react-icons/fa'
 //style={{color: "#333"}}
 const MyLinks = ({githubColor}) => {
     return (
-        <div className='flex justify-around pt-6 max-w-[200px] w-full'>
+        <div className='flex justify-around pt-5 max-w-[200px] w-full'>
             <a className='hover:scale-110 ease-in duration-300' href="https://www.linkedin.com/in/christiantegene" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn className='cursor-pointer' style={{color: "#0077b5"}} size={25}/>
             </a>
