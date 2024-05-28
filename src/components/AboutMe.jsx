@@ -1,4 +1,3 @@
-import React from 'react'
 import { Carousel } from "@material-tailwind/react";
 import headshotImg from '../assets/headshot.jpg'
 import stamfordbridgeImg from '../assets/stamfordbridge.jpg'

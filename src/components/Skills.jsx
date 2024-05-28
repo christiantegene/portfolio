@@ -1,4 +1,3 @@
-import React from 'react'
 import cssImg from '../assets/skills/css.png'
 import htmlImg from '../assets/skills/html.png'
 import jsImg from '../assets/skills/javascript.png'

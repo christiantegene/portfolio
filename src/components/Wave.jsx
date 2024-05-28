@@ -1,4 +1,3 @@
-import React from 'react'
 // fill-opacity="1"
 const Wave = () => {
     return (

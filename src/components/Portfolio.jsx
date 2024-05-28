@@ -1,4 +1,3 @@
-import React from 'react'
 import Project from './Project'
 import conferencehqImg from '../assets/conferencehq.jpg'
 import autonexusImg from '../assets/autonexus.jpg'

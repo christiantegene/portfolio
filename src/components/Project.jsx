@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Project = ({img, title, tagline, repo, link}) => {
     if (link) {
         return (

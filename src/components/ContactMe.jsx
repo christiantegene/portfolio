@@ -1,5 +1,3 @@
-import React from 'react'
-
 const ContactMe = () => {
     return (
         <div className='bg-gradient-to-b from-[#273036] to-[#273036]'>

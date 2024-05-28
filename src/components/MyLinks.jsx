@@ -1,4 +1,3 @@
-import React from 'react'
 import {FaLinkedinIn, FaFile, FaGithub, FaGitlab} from 'react-icons/fa'
 
 //style={{color: "#333"}}

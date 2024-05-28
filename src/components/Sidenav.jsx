@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import {AiOutlineHome, AiOutlineMenu, AiOutlineProject, AiOutlineMail } from 'react-icons/ai'
 import {RxCross2} from 'react-icons/rx'
 import {BsPerson} from 'react-icons/bs'
