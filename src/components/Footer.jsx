@@ -1,7 +1,6 @@
 import MyLinks from './MyLinks'
 import Logo from '../assets/logo.png'
 
-
 const Footer = () => {
     return (
         <div className="bg-black flex justify-around pt-5 pb-0">
