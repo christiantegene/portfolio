@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Carousel } from "@material-tailwind/react";
 import headshotImg from '../assets/headshot.jpg'
 import stamfordbridgeImg from '../assets/stamfordbridge.jpg'
