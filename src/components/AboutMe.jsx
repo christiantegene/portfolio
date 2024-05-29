@@ -21,9 +21,9 @@ const AboutMe = () => {
 
                     <div className="pt-3 pb-2 w-[100%] md:pr-3">
                         <div className='flex justify-center pb-3'>
-                            <img className='rounded-full w-57 h-48 md:border-2 border-[#d5a264]' src={headshotImg} alt="me" />
+                            <img className='rounded-full w-57 h-48 border-2 border-[#d5a264]' src={headshotImg} alt="me" />
                         </div>
-                        <div className='md:border-2 border-[#d5a264] rounded-lg'>
+                        <div className='sm:border-2 border-[#d5a264] rounded-lg'>
                             <p className='h-full w-full flex flex-col p-3 text-white/90'>
                                 {welcomeMessageParagraph1}
                             </p>
