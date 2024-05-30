@@ -4,7 +4,7 @@ import {RxCross2} from 'react-icons/rx'
 import {BsPerson} from 'react-icons/bs'
 import {GrProjects} from 'react-icons/gr'
 import MyLinks from './MyLinks'
-import { Tooltip, Button } from "@material-tailwind/react";
+import { Tooltip } from "@material-tailwind/react";
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false)

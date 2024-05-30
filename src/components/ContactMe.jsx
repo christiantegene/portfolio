@@ -27,7 +27,6 @@ const ContactMe = () => {
                         <button className='border border-[#d5a264] text-white hover:bg-[#d5a264] hover:text-black mt-4 w-full p-4 rounded-lg'>
                             Send Message
                         </button>
-                        {/* bg-#8c673c bg-[#d5a264]*/}
                     </div>
                 </form>
             </div>
