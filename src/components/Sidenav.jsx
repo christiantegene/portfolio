@@ -13,7 +13,7 @@ const Sidenav = () => {
     };
 
     return (
-        <div >
+        <div>
             <AiOutlineMenu size={30} onClick={handleNav} className='fixed top-4 right-4 z-[99] md:hidden'/>
             {
                 nav ? (
@@ -27,7 +27,7 @@ const Sidenav = () => {
                             <span className='pl-4'>About Me</span>
                         </a>
                         <a onClick={handleNav} href="#skills" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                            <AiOutlineProject size={20} />
+                            <AiOutlineProject size={20} className='rotate-180' />
                             <span className='pl-4'>My Skills</span>
                         </a>
                         <a onClick={handleNav} href="#portfolio" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
@@ -48,7 +48,7 @@ const Sidenav = () => {
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
                     <Tooltip content="Home" placement="right">
-                        <a href="#home" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                        <a href="#home" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <AiOutlineHome size={20} />
                         </a>
                     </Tooltip>
@@ -59,7 +59,7 @@ const Sidenav = () => {
                     </Tooltip>
                     <Tooltip content="Skills" placement="right">
                         <a href="#skills" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
-                                    <AiOutlineProject size={20} />
+                                    <AiOutlineProject size={20} className='rotate-180'/>
                         </a>
                     </Tooltip>
                     <Tooltip content="Portfolio" placement="right">
