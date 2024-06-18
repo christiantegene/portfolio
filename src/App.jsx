@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <style>{'body { background-color: black; }'}</style>
+      <style>{'body { background-color: #273036 }'}</style>
       <div className='bg-white'>
         <Sidenav />
         <Home />
