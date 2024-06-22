@@ -16,15 +16,12 @@ function App() {
           body {
             background-image: linear-gradient(to bottom, #273036, black);
             margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
+            min-height: 100vh;
+            height: auto;
           }
         `}
       </style>
-      {/* <div className='bg-white'>
+      <div className='bg-white'>
         <Sidenav />
         <Home />
         <AboutMe />
@@ -33,7 +30,7 @@ function App() {
         <Wave />
         <ContactMe />
         <Footer />
-      </div> */}
+      </div>
     </>
   )
 }
