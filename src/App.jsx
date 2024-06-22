@@ -11,7 +11,14 @@ function App() {
 
   return (
     <>
-      <style>{'body { background-color: #273036 }'}</style>
+      <style>
+        {`
+          body {
+            background-image: linear-gradient(to bottom, #273036, black);
+            height: 100vh;
+          }
+        `}
+      </style>
       <div className='bg-white'>
         <Sidenav />
         <Home />
