@@ -14,10 +14,7 @@ function App() {
       <style>
         {`
           body {
-            background-image: linear-gradient(to bottom, #273036, black);
-            margin: 0;
-            min-height: 100vh;
-            height: auto;
+            background-color: #273036
           }
         `}
       </style>
