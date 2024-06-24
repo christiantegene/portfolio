@@ -16,7 +16,7 @@ const Skills = () => {
     return (
         <div id='skills' className='max-w-[1096px] m-auto md:pl-20 p-4 py-4'>
             <h1 className='text-center pt-10 pb-5 sm:text-5xl text-4xl font-bold text-gray-800'>Skills</h1>
-            <div className='bg-gray-800 rounded-md grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 drop-shadow-2xl'>
+            <div className='bg-[#273036] rounded-md grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 drop-shadow-2xl'>
                 <div className='p-4'>
                     <img src={htmlImg} alt="html" />
                     <p className='text-center font-bold  text-white'>HTML</p>
