@@ -19,51 +19,51 @@ const Skills = () => {
             <div className='bg-[#273036] rounded-md grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 drop-shadow-2xl'>
                 <div className='p-4'>
                     <img src={htmlImg} alt="html" />
-                    <p className='text-center font-bold  text-white'>HTML</p>
+                    <p className='text-center font-bold text-white pt-2'>HTML</p>
                 </div>
                 <div className='p-4'>
                     <img src={cssImg} alt="css" />
-                    <p className='text-center font-bold text-white'>CSS</p>
+                    <p className='text-center font-bold text-white pt-2'>CSS</p>
                 </div>
                 <div className='p-4'>
                     <img src={jsImg} alt="javascript" />
-                    <p className='text-center font-bold text-white'>JavaScript</p>
+                    <p className='text-center font-bold text-white pt-2'>JavaScript</p>
                 </div>
                 <div className='p-4'>
                     <img src={reactImg} alt="react" />
-                    <p className='text-center font-bold text-white'>React</p>
+                    <p className='text-center font-bold text-white pt-2'>React</p>
                 </div>
                 <div className='p-4'>
                     <img src={gitImg} alt="git" />
-                    <p className='text-center font-bold text-white'>Git/Version Control</p>
+                    <p className='text-center font-bold text-white pt-2'>Git/Version Control</p>
                 </div>
                 <div className='p-4'>
                     <img src={dockerImg} alt="docker" />
-                    <p className='text-center font-bold text-white'>Docker</p>
+                    <p className='text-center font-bold text-white pt-2'>Docker</p>
                 </div>
                 <div className='p-4'>
                     <img src={pythonImg} alt="python"/>
-                    <p className='text-center font-bold text-white'>Python</p>
+                    <p className='text-center font-bold text-white pt-2'>Python</p>
                 </div>
                 <div className='p-4'>
                     <img src={fastapiImg} alt="fastapi"/>
-                    <p className='text-center font-bold text-white'>FastAPI</p>
+                    <p className='text-center font-bold text-white pt-2'>FastAPI</p>
                 </div>
                 <div className='p-4'>
                     <img src={postgresImg} alt="postgres" />
-                    <p className='text-center font-bold text-white'>PostgreSQL</p>
+                    <p className='text-center font-bold text-white pt-2'>PostgreSQL</p>
                 </div>
                 <div className='p-4'>
                     <img src={djangoImg} alt="django" />
-                    <p className='text-center font-bold text-white'>Django</p>
+                    <p className='text-center font-bold text-white pt-2'>Django</p>
                 </div>
                 <div className='p-4'>
                     <img src={firebaseImg} alt="firebase" />
-                    <p className='text-center font-bold text-white'>Firebase</p>
+                    <p className='text-center font-bold text-white pt-2'>Firebase</p>
                 </div>
                 <div className='p-4'>
                     <img src={viteImg} alt="vite" />
-                    <p className='text-center font-bold text-white'>Vite</p>
+                    <p className='text-center font-bold text-white pt-2'>Vite</p>
                 </div>
             </div>
         </div>
