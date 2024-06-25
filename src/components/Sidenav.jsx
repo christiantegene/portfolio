@@ -17,7 +17,7 @@ const Sidenav = () => {
     return (
         <div>
             {nav ? (
-                <RxCross2 size={35} onClick={handleNav} className='fixed top-4 right-4 z-[99] md:hidden'/>
+                <RxCross2 size={37} onClick={handleNav} className='fixed top-4 right-4 z-[99] md:hidden'/>
             ) : (
                 <AiOutlineMenu size={35} onClick={handleNav} className='fixed top-4 right-4 z-[99] md:hidden'/>
             )}
