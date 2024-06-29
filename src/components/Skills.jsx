@@ -18,18 +18,18 @@ const Skills = () => {
         <div id='skills' className='max-w-[1096px] m-auto md:pl-20 p-4 py-4'>
             <h1 className='text-center pt-10 pb-5 sm:text-5xl text-4xl font-bold text-[#273036]'>Skills</h1>
             <div className='bg-[#273036] rounded-md grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 drop-shadow-2xl'>
-                <Skill skillName='HTML' image={htmlImg}/>
-                <Skill skillName='CSS' image={cssImg}/>
-                <Skill skillName='JavaScript' image={jsImg}/>
-                <Skill skillName='React' image={reactImg}/>
-                <Skill skillName='Git/Version Control' image={gitImg}/>
-                <Skill skillName='Docker' image={dockerImg}/>
-                <Skill skillName='Python' image={pythonImg}/>
-                <Skill skillName='FastAPI' image={fastapiImg}/>
-                <Skill skillName='PostgreSQL' image={postgresImg}/>
-                <Skill skillName='Django' image={djangoImg}/>
-                <Skill skillName='Firebase' image={firebaseImg}/>
-                <Skill skillName='Vite' image={viteImg}/>
+                <Skill name='HTML' image={htmlImg}/>
+                <Skill name='CSS' image={cssImg}/>
+                <Skill name='JavaScript' image={jsImg}/>
+                <Skill name='React' image={reactImg}/>
+                <Skill name='Git/Version Control' image={gitImg}/>
+                <Skill name='Docker' image={dockerImg}/>
+                <Skill name='Python' image={pythonImg}/>
+                <Skill name='FastAPI' image={fastapiImg}/>
+                <Skill name='PostgreSQL' image={postgresImg}/>
+                <Skill name='Django' image={djangoImg}/>
+                <Skill name='Firebase' image={firebaseImg}/>
+                <Skill name='Vite' image={viteImg}/>
             </div>
         </div>
     )
