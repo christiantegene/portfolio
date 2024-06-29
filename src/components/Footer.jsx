@@ -7,7 +7,7 @@ const Footer = () => {
             <a href="#home"><img src={Logo} alt="/" className='w-24 h-16'/></a>
             <div>
                 <MyLinks githubColor="white"/>
-                <p className='text-white py-2'>&copy;2024  Christian Tegene</p>
+                <p className='text-white/90 py-2'>&copy;2024  Christian Tegene</p>
             </div>
 
         </div>

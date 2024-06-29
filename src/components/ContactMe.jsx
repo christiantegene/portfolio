@@ -24,7 +24,7 @@ const ContactMe = () => {
                             <label className='text-sm text-[#d5a264] py-2'>Message</label>
                             <textarea className='border-2 rounded-lg p-3 flex border-gray-300' rows="10" name='message'></textarea>
                         </div>
-                        <button className='border border-[#d5a264] text-white hover:bg-[#d5a264] hover:text-black mt-4 w-full p-4 rounded-lg'>
+                        <button className='border border-[#d5a264] text-white/90 hover:bg-[#d5a264] hover:text-black mt-4 w-full p-4 rounded-lg'>
                             Send Message
                         </button>
                     </div>
